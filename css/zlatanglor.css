@@ -1,0 +1,8 @@
+*{
+    padding: 0;
+    bottom: 0;
+}
+.d_container{
+    color: red;
+    height: 500px;
+}

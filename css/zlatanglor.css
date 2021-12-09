@@ -1,3 +1,4 @@
+
 .od_promo_banner{
     background: #C2E8CE;
     font-family: 'Poppins';
@@ -12,13 +13,16 @@
 .od_promo_banner .main_container{
     position: relative;
 }
-.od_promo_banner span{
+/*.od_promo_banner span*/
+.close{
     width: 16px;
     height: 16px;
     position: absolute;
     right: 0;
+    cursor: pointer;
 }
-.od_promo_banner span:after, .od_promo_banner span:before{
+/*.od_promo_banner span:after, .od_promo_banner span:before*/
+.close:after, .close:before{
     content: "";
     background: #1F1F1F;
     top:50%;
@@ -27,10 +31,12 @@
     width: 100%;
     height: 2px;
 }
-.od_promo_banner span:after{
+/*.od_promo_banner span:after*/
+.close:after{
     transform: rotate(45deg);
 }
-.od_promo_banner span:before{
+/*.od_promo_banner span:before*/
+.close:before{
     transform: rotate(-45deg);
 }
 header .main_container{

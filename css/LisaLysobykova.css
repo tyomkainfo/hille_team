@@ -1,0 +1,18 @@
+.main{
+    background-image: url(../images/brooke-lark-08bOYnH_r_E-unsplash_1.jpg);
+    background-size: cover;
+    padding-bottom: 195px;
+}
+.main h1{
+    font-size: 50px;
+    line-height: 61px;
+    color: #1F1F1F;
+    padding-top: 125px;
+    margin-bottom: 5px;
+}
+.main p{
+    font-size: 26px;
+    line-height: 39px;
+    color: #1F1F1F;
+    margin-bottom: 48px;
+}

@@ -1,0 +1,27 @@
+.block_vegetables{
+    background-image: url(../images/background_vegetables.jpg);
+    display: block;
+    background-size: cover;
+    padding-bottom: 85px;
+    width: 100%;
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    margin-bottom: 80px;
+    position: center;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'Cormorant';
+}
+.vegetables{
+    position: center;
+    text-align: center;
+}
+.leiba{
+    padding-bottom: 30px;
+    margin-top: -30px;
+}

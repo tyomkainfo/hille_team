@@ -9,12 +9,16 @@
     color: #1F1F1F;
     padding-top: 125px;
     margin-bottom: 5px;
+    font-family: 'Cormorant';
+    font-weight: 700;
 }
 .main p{
     font-size: 26px;
     line-height: 39px;
     color: #1F1F1F;
     margin-bottom: 48px;
+    font-family: 'Poppins';
+    font-weight: 300;
 }
 .button{
     font-size: 18px;
@@ -24,4 +28,6 @@
     border-radius: 5px;
     padding: 8px 36px 10px 36px;
     text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
 }

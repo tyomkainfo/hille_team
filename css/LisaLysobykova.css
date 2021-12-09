@@ -16,3 +16,12 @@
     color: #1F1F1F;
     margin-bottom: 48px;
 }
+.button{
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #FF8126;
+    border-radius: 5px;
+    padding: 8px 36px 10px 36px;
+    text-decoration: none;
+}

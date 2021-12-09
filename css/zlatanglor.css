@@ -1,4 +1,4 @@
-.promo_banner{
+.od_promo_banner{
     background: #C2E8CE;
     font-family: 'Poppins';
     font-style: normal;
@@ -7,31 +7,39 @@
     line-height: 21px;
     text-align: center;
     color: #1F1F1F;
+    padding: 15px 0;
 }
-.promo_banner span:after{
-    width: 16px;
-    height: 16px;
+.od_promo_banner .main_container{
     position: relative;
 }
-.promo_banner span:after, .promo_banner span:before{
+.od_promo_banner span{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+}
+.od_promo_banner span:after, .od_promo_banner span:before{
     content: "";
-    background: #181818;
+    background: #1F1F1F;
+    top:50%;
     left: 0;
     position: absolute;
     width: 100%;
     height: 2px;
 }
-.promo_banner span:after{
-    top: 0;
+.od_promo_banner span:after{
+    transform: rotate(45deg);
 }
-.promo_banner span:after
+.od_promo_banner span:before{
+    transform: rotate(-45deg);
+}
 header .main_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header{
-    padding-top: 20px;
+    padding: 20px 0;
 }
 header nav{
     display: flex;
@@ -41,19 +49,19 @@ header nav{
 .logo img{
     display: inline-block;
 }
-.nav_link{
+.od_nav_link{
     display: flex;
     padding-left: 60px;
     list-style: none;
     align-items: center;
 }
-.nav_link li{
+.od_nav_link li{
     margin-right: 40px;
 }
-.nav_link li:last-of-type{
+.od_nav_link li:last-of-type{
     margin-right: 0;
 }
-.nav_link li a{
+.od_nav_link li a{
     text-decoration: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -62,24 +70,23 @@ header nav{
     line-height: 22px;
     color: #1F1F1F;
 }
-.nav_link li a:hover{
+.od_nav_link li a:hover{
     color: #0f8bbb;
 }
-.nav_link li a:after{
+.od_nav_link li a:after{
     content: "\f078";
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     margin-left: 7px;
     font-size: 10px;
-
 }
-.nav_link li:nth-child(4) :after{
+.od_nav_link li:nth-child(4) :after{
     content: "";
 }
-.nav_link li:last-child :after {
+.od_nav_link li:last-child :after {
     content: "";
 }
-.nav_icon a {
+.od_nav_icon a {
     display: inline-block;
     border: 1px solid #BFBFBF;
     box-sizing: border-box;
@@ -91,25 +98,25 @@ header nav{
     padding: 15px;
     background: #FFFFFF;
 }
-.nav_icon {
+.od_nav_icon {
     list-style: none;
     display: flex;
     justify-content: space-between;
     padding-left: 0;
 }
-.nav_icon li a{
+.od_nav_icon li a{
     text-decoration: none;
 }
-.nav_icon li{
+.od_nav_icon li{
     margin-left: 10px;
 }
-.nav_icon li:first-of-type{
+.od_nav_icon li:first-of-type{
     margin-left: 0;
 }
-.nav_icon .cart{
+.od_nav_icon .od_cart{
     position: relative;
 }
-.nav_icon .cart:after{
+.od_nav_icon .od_cart:after{
     content: "23";
     font-family: 'Poppins';
     font-style: normal;

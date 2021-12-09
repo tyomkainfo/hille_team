@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    max-width: 1170px;
+    margin: auto;
+}
+.ad-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    max-width: 569px;
+          }
+.content h3{
+    margin-top: 53px;
+    font-family: Cormorant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FF8126;
+}
+.content h3 span{
+     font-family: Cormorant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1F1F1F;
+}
+.content p{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+}
+.content .button{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 31px 10px 31px;
+}
+@media only screen and (max-width: 1024px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+    }
+    .content h3{
+        margin-top: 53px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .content h3 span{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .content .button{
+        display: inline-block;
+        margin-top: 38px;
+    }
+    .surprise img{
+        max-width: 992px;
+            }
+}
+@media only screen and (max-width: 768px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+           }
+    .content h3{
+        margin-top: 53px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .content h3 span{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .content .button{
+        display: inline-block;
+        margin-top: 38px;
+    }
+    .surprise img{
+        max-width: 768px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .content h3{
+        margin-top: 25px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content h3 span{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content .button{
+        display: inline-block;
+        margin-top: 28px;
+    }
+    .surprise img{
+        max-width: 420px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .content h3{
+        margin-top: 25px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content h3 span{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content .button{
+        display: inline-block;
+        margin-top: 28px;
+    }
+    .surprise img{
+        max-width: 375px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+      .content h3{
+        margin-top: 25px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content h3 span{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .content .button{
+        display: inline-block;
+        margin-top: 28px;
+    }
+    .surprise img{
+        max-width: 360px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .ad-container{
+        justify-content: center;
+        margin: auto;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .content h3{
+        margin-top: 20px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .content h3 span{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .content p{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #1F1F1F;
+    }
+    .content .button{
+        display: inline-block;
+        margin-top: 22px;
+    }
+    .surprise img{
+        max-width: 320px;
+    }
+}
+
+
+
+

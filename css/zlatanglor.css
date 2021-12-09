@@ -138,3 +138,115 @@ header nav{
     right: 0;
     top: 0;
 }
+.burger{
+    display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+    .main_container{
+        max-width: 962px;
+    }
+    header{
+        padding: 15px 0;
+    }
+    .od_nav_link{
+        padding-left: 30px;
+    }
+    .od_nav_link li{
+        margin-right: 20px;
+    }
+    .od_nav_icon a{
+        width: 45px;
+        height: 45px;
+        padding: 12px;
+    }
+    .od_nav_icon img{
+        max-width: 20px;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .main_container{
+        max-width: 690px;
+    }
+    header nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+        width: 30px;
+        height: 18px;
+        position: relative;
+    }
+    .burger span{
+        position: absolute;
+        background-color: #181818;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 8px;
+    }
+    .burger:before, .burger:after {
+        content: "";
+        background: #181818;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+    }
+    .burger:before {
+        top: 0;
+    }
+    .burger:after {
+        bottom: 0;
+    }
+    header{
+        background: rgb(192,198,200,0.2);
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .main_container{
+        max-width: 510px;
+    }
+
+}
+@media only screen and (max-width: 530px) {
+    .main_container{
+        max-width: 360px;
+    }
+    .od_promo_banner{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    header{
+        padding: 10px 0;
+    }
+
+}
+@media only screen and (max-width: 375px) {
+    .main_container{
+        max-width: 315px;
+    }
+    .close{
+        left: 50%;
+        bottom: 100%;
+        width: 13px;
+        height: 13px;
+    }
+    .od_promo_banner{
+        padding-bottom: 10px;
+    }
+
+
+}
+@media only screen and (max-width: 360px) {
+    .main_container{
+        max-width: 290px;
+    }
+    .od_promo_banner{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+}

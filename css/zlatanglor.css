@@ -169,8 +169,37 @@ header nav{
     .main_container{
         max-width: 690px;
     }
+    header .main_container{
+        position: relative;
+    }
     header nav{
-        display: none;
+        /*display: none;*/
+        position: absolute;
+        left: 0;
+        top: -500%;
+        transition: all 0.4s ease;
+        background: rgb(245,246,246,0.7);
+        width: 100%;
+        box-shadow: 0 5px 6px rgba(36, 36, 36, 0.37);
+        /*overflow: auto;*/
+    }
+    .od_nav_icon{
+        margin: 0 0 25px 0;
+        order: 1;
+        width: 50%;
+    }
+    .od_nav_link{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        order: 2;
+    }
+    .od_nav_link li{
+        margin: 0 0 20px;
+    }
+    header nav{
+        flex-direction: column;
+        align-items: center;
     }
     .burger{
         display: block;
@@ -203,6 +232,30 @@ header nav{
     header{
         background: rgb(192,198,200,0.2);
     }
+    .burger_active{
+        top: 0;
+    }
+    .burger.burger_active span{
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .burger.burger_active:before{
+        transition: 0.4s;
+        transform: rotate(45deg);
+        top: 8px;
+    }
+    .burger.burger_active:after{
+        transition: 0.4s;
+        transform: rotate(-45deg);
+        bottom: 8px;
+    }
+    .od_nav_link li a{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    header .main_container.burger_active{
+        max-width: 100%;
+    }
 
 }
 @media only screen and (max-width: 767px) {
@@ -222,6 +275,7 @@ header nav{
     header{
         padding: 10px 0;
     }
+
 
 }
 @media only screen and (max-width: 375px) {

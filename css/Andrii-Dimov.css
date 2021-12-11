@@ -1,13 +1,12 @@
-
 .ad-container{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .content{
     max-width: 569px;
-          }
+              }
 .content h3{
     margin-top: 53px;
     font-family: Cormorant;
@@ -40,37 +39,24 @@
     padding: 8px 31px 10px 31px;
 }
 @media only screen and (max-width: 1199px) {
-    .main_container{
-        max-width: 962px;
-    }
     .ad-container{
         justify-content: center;
-        margin: auto;
-    }
+            }
     .surprise img{
         max-width: 962px;
     }
 }
 @media only screen and (max-width: 1024px) {
-    .main_container{
-        max-width: 930px;
-    }
     .surprise img{
         max-width: 930px;
     }
    }
 @media only screen and (max-width: 991px) {
-    .main_container{
-        max-width: 690px;
-    }
         .surprise img{
         max-width: 690px;
             }
 }
 @media only screen and (max-width: 767px) {
-    .main_container{
-        max-width: 510px;
-    }
        .content .button{
         margin-top: 28px;
     }
@@ -79,9 +65,6 @@
     }
 }
 @media only screen and (max-width: 530px) {
-    .main_container{
-        max-width: 360px;
-    }
       .content h3{
         margin-top: 25px;
         font-size: 35px;
@@ -99,18 +82,12 @@
     }
 }
 @media only screen and (max-width: 375px) {
-    .main_container{
-        max-width: 315px;
-    }
     .surprise img{
         max-width: 315px;
     }
 }
 @media only screen and (max-width: 360px) {
-    .main_container{
-        max-width: 290px;
-    }
-      .content h3{
+        .content h3{
         margin-top: 25px;
         font-size: 30px;
         line-height: 36px;

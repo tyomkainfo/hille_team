@@ -30,4 +30,9 @@
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: 500;
+    display: inline-block;
+}
+.button:hover{
+    background-color: #1F1F1F;
+    transition: 0.6s
 }

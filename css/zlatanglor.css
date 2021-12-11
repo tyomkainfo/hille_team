@@ -143,9 +143,6 @@ header nav{
 }
 
 @media only screen and (max-width: 1199px) {
-    .main_container{
-        max-width: 962px;
-    }
     header{
         padding: 15px 0;
     }
@@ -166,9 +163,6 @@ header nav{
 
 }
 @media only screen and (max-width: 991px) {
-    .main_container{
-        max-width: 690px;
-    }
     header .main_container{
         position: relative;
     }
@@ -259,15 +253,9 @@ header nav{
 
 }
 @media only screen and (max-width: 767px) {
-    .main_container{
-        max-width: 510px;
-    }
 
 }
 @media only screen and (max-width: 530px) {
-    .main_container{
-        max-width: 360px;
-    }
     .od_promo_banner{
         font-size: 12px;
         line-height: 20px;
@@ -279,9 +267,6 @@ header nav{
 
 }
 @media only screen and (max-width: 375px) {
-    .main_container{
-        max-width: 315px;
-    }
     .close{
         left: 50%;
         bottom: 100%;
@@ -295,9 +280,6 @@ header nav{
 
 }
 @media only screen and (max-width: 360px) {
-    .main_container{
-        max-width: 290px;
-    }
     .od_promo_banner{
         font-size: 11px;
         line-height: 18px;

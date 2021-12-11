@@ -41,6 +41,7 @@
 .db_content ul li{
     margin-bottom: 20px;
     font: 16px/24px 'Poppins';
+    color: #1F1F1F;
     font-style: normal;
     font-weight: 400;
     position: relative;
@@ -64,8 +65,20 @@
 }
 .db_content .button{
     margin-top: 10px;
-    display: inline-block;
+    /*transition: 0.6s;*/
 }
+/*.button:hover{
+    background-color: #1F1F1F;
+}
+
+.db_content .button:hover{
+    background-color: #0f8bbb;
+}
+/*.db_content .button:focus{
+    color: #1F1F1F;
+}
+
+ */
 
 @media only screen and (max-width: 1199px) {
     .db_flex_container {
@@ -93,19 +106,53 @@
     }
 
 }
+
+ */
 @media only screen and (max-width: 530px) {
-    .main_container{
-        max-width: 360px;
+    .db_section{
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
-
+    .db_flex_container div:first-of-type {
+        padding-bottom: 25px;
+    }
+    .db_content h3{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .db_content p{
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+    .db_content ul li {
+        margin-bottom: 18px;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 35px;
+    }
+    .db_content ul li:before {
+        width: 22px;
+        height: 22px;
+    }
+    .db_content .button{
+        font-size: 16px;
+    }
 }
+
+
 @media only screen and (max-width: 375px) {
-    .main_container {
-        max-width: 315px;
+    .db_content p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 25px;
     }
-
+    .db_content ul li{
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
 }
-@media only screen and (max-width: 360px) {
+/*@media only screen and (max-width: 360px) {
      .main_container{
         max-width: 290px;
      }

@@ -4,6 +4,6 @@ $('.close').click(function () {
 
 // burger menu, Oshovskiy Dima
 $('.burger').click(function() {
-    $('.burger, header nav, header .main_container').toggleClass('burger_active');
+    $('.burger, .nav-bar').toggleClass('burger_active');
 });
 

@@ -1,13 +1,18 @@
-.ad-container{
-    width: 100%;
+.ad-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
-.content{
+
+.surprise {
+    display: inline-block;
+}
+
+.content {
+    display: inline-block;
     max-width: 569px;
-              }
-.content h3{
+}
+
+.content h3 {
     margin-top: 53px;
     font-family: Cormorant;
     font-style: normal;
@@ -16,15 +21,17 @@
     line-height: 48px;
     color: #FF8126;
 }
-.content h3 span{
-     font-family: Cormorant;
+
+.content h3 span {
+    font-family: Cormorant;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 48px;
     color: #1F1F1F;
 }
-.content p{
+
+.content p {
     margin-top: 20px;
     font-family: Poppins;
     font-style: normal;
@@ -33,77 +40,72 @@
     line-height: 24px;
     color: #1F1F1F;
 }
-.content .button{
+
+.content .button {
     display: inline-block;
     margin-top: 30px;
     padding: 8px 31px 10px 31px;
 }
+
 @media only screen and (max-width: 1199px) {
-    .ad-container{
+    .ad-container {
+        flex-wrap: wrap;
         justify-content: center;
-            }
-    .surprise img{
-        max-width: 962px;
     }
-}
-@media only screen and (max-width: 1024px) {
-    .surprise img{
-        max-width: 930px;
+
+    .surprise {
+        width: 100%;
     }
-   }
-@media only screen and (max-width: 991px) {
-        .surprise img{
-        max-width: 690px;
-            }
-}
-@media only screen and (max-width: 767px) {
-       .content .button{
-        margin-top: 28px;
-    }
-    .surprise img{
-        max-width: 510px;
-    }
-}
-@media only screen and (max-width: 530px) {
-      .content h3{
-        margin-top: 25px;
-        font-size: 35px;
-        line-height: 42px;
-    }
-    .content h3 span{
-        font-size: 35px;
-        line-height: 42px;
-    }
-    .content .button{
-        margin-top: 25px;
-    }
-    .surprise img{
-        max-width: 360px;
-    }
-}
-@media only screen and (max-width: 375px) {
-    .surprise img{
-        max-width: 315px;
-    }
-}
-@media only screen and (max-width: 360px) {
-        .content h3{
-        margin-top: 25px;
-        font-size: 30px;
-        line-height: 36px;
-    }
-    .content h3 span{
-        font-size: 30px;
-        line-height: 36px;
-    }
-    .content .button{
-        margin-top: 20px;
-    }
-    .surprise img{
-        max-width: 290px;
+
+    .content {
+        max-width: 100%;
     }
 }
 
+@media only screen and (max-width: 530px) {
+    .content h3 {
+        margin-top: 25px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .content h3 span {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .content p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .content .button {
+        margin-top: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .content h3 {
+        margin-top: 25px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .content h3 span {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .content .button {
+        margin-top: 20px;
+    }
+}
 
 
 

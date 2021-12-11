@@ -1,7 +1,7 @@
 .block_vegetables{
     background-image: url(../images/background_vegetables.jpg);
     background-size: cover;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     width: 100%;
     margin-bottom: 80px;
     text-align: center;
@@ -10,9 +10,10 @@ h2{
     font-size: 40px;
     color: #FFFFFF;
     padding-top: 60px;
-    margin-bottom: 30px;
+    margin: 0;
     font-family: 'Cormorant';
 }
-.leiba{
+.brand{
     padding-bottom: 30px;
+    padding-top: 30px;
 }

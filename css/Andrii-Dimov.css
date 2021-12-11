@@ -39,110 +39,48 @@
     margin-top: 30px;
     padding: 8px 31px 10px 31px;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
+    .main_container{
+        max-width: 962px;
+    }
     .ad-container{
         justify-content: center;
         margin: auto;
-    }
-}
-@media only screen and (max-width: 992px) {
-    .ad-container{
-        justify-content: center;
-        margin: auto;
-    }
-    .content h3{
-        margin-top: 53px;
-        font-size: 40px;
-        line-height: 48px;
-    }
-    .content h3 span{
-        font-size: 40px;
-        line-height: 48px;
-    }
-    .content .button{
-        display: inline-block;
-        margin-top: 38px;
     }
     .surprise img{
-        max-width: 992px;
+        max-width: 962px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .main_container{
+        max-width: 930px;
+    }
+    .surprise img{
+        max-width: 930px;
+    }
+   }
+@media only screen and (max-width: 991px) {
+    .main_container{
+        max-width: 690px;
+    }
+        .surprise img{
+        max-width: 690px;
             }
 }
-@media only screen and (max-width: 768px) {
-    .ad-container{
-        justify-content: center;
-        margin: auto;
-           }
-    .content h3{
-        margin-top: 53px;
-        font-size: 40px;
-        line-height: 48px;
+@media only screen and (max-width: 767px) {
+    .main_container{
+        max-width: 510px;
     }
-    .content h3 span{
-        font-size: 40px;
-        line-height: 48px;
-    }
-    .content .button{
-        display: inline-block;
-        margin-top: 38px;
-    }
-    .surprise img{
-        max-width: 768px;
-    }
-}
-@media only screen and (max-width: 420px) {
-    .ad-container{
-        justify-content: center;
-        margin: auto;
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-    .content h3{
-        margin-top: 25px;
-        font-size: 35px;
-        line-height: 42px;
-    }
-    .content h3 span{
-        font-size: 35px;
-        line-height: 42px;
-    }
-    .content .button{
-        display: inline-block;
+       .content .button{
         margin-top: 28px;
     }
     .surprise img{
-        max-width: 420px;
+        max-width: 510px;
     }
 }
-@media only screen and (max-width: 375px) {
-    .ad-container{
-        justify-content: center;
-        margin: auto;
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-    .content h3{
-        margin-top: 25px;
-        font-size: 35px;
-        line-height: 42px;
-    }
-    .content h3 span{
-        font-size: 35px;
-        line-height: 42px;
-    }
-    .content .button{
-        display: inline-block;
-        margin-top: 28px;
-    }
-    .surprise img{
-        max-width: 375px;
-    }
-}
-@media only screen and (max-width: 360px) {
-    .ad-container{
-        justify-content: center;
-        margin: auto;
-        padding-right: 8px;
-        padding-left: 8px;
+@media only screen and (max-width: 530px) {
+    .main_container{
+        max-width: 360px;
     }
       .content h3{
         margin-top: 25px;
@@ -154,41 +92,38 @@
         line-height: 42px;
     }
     .content .button{
-        display: inline-block;
-        margin-top: 28px;
+        margin-top: 25px;
     }
     .surprise img{
         max-width: 360px;
     }
 }
-@media only screen and (max-width: 320px) {
-    .ad-container{
-        justify-content: center;
-        margin: auto;
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-    .content h3{
-        margin-top: 20px;
-        font-size: 32px;
-        line-height: 39px;
-    }
-    .content h3 span{
-        font-size: 32px;
-        line-height: 39px;
-    }
-    .content p{
-        margin-top: 10px;
-        font-size: 14px;
-        line-height: 20px;
-        color: #1F1F1F;
-    }
-    .content .button{
-        display: inline-block;
-        margin-top: 22px;
+@media only screen and (max-width: 375px) {
+    .main_container{
+        max-width: 315px;
     }
     .surprise img{
-        max-width: 320px;
+        max-width: 315px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .main_container{
+        max-width: 290px;
+    }
+      .content h3{
+        margin-top: 25px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .content h3 span{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .content .button{
+        margin-top: 20px;
+    }
+    .surprise img{
+        max-width: 290px;
     }
 }
 

@@ -16,60 +16,12 @@ function text() {if(a<=i) {
     setTimeout("text()", 100); // Скорость печатания текста
 }} text();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // carousel, Peschanskyi
 $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:30,
-        mouseDrag: false,
-        touchDrag: false,
         nav:true,
         navText: [ '', ' ' ],
 
@@ -103,26 +55,7 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
 var str=document.getElementById('printt').innerHTML;
 var i=str.length;
 
